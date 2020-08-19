@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1308.dir/P1308.cpp.o  -o P1308 

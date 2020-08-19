@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1009.dir/P1009.cpp.o  -o P1009 

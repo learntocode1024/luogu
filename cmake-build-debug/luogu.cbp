@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="luogu"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2239">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P2239" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2239"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2239/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P2239" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2239/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1015">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1015" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1015"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1015/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1015" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1015/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1308">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1308" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1308"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1308/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1308" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1308/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1009">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1009" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1009"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1009/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1009" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1009/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1037">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1037" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1037"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1037/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1037" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1037/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3379">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P3379" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3379"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3379/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P3379" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3379/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1104">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1104" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1104"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1104/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1104" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1104/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1022">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1022" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1022"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1022/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1022" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1022/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1058">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1058" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1058"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1058/fast">
+				<Option output="/home/acgtech/CLionProjects/luogu/cmake-build-debug/P1058" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/acgtech/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1058/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/acgtech/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1009.cpp">
+			<Option target="P1009"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1015.cpp">
+			<Option target="P1015"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1022.cpp">
+			<Option target="P1022"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1037.cpp">
+			<Option target="P1037"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1058.cpp">
+			<Option target="P1058"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1104.cpp">
+			<Option target="P1104"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P1308.cpp">
+			<Option target="P1308"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P2239.cpp">
+			<Option target="P2239"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/P3379.cpp">
+			<Option target="P3379"/>
+		</Unit>
+		<Unit filename="/home/acgtech/CLionProjects/luogu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
