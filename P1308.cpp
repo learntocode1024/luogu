@@ -1,6 +1,6 @@
 // luogu/P1308.cpp
 // https://www.luogu.com.cn/problem/P1308
-// Created by learncoding60 on 2020/8/3.
+// Created by learntocode1024 on 2020/8/3.
 
 #include <iostream>
 

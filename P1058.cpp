@@ -1,6 +1,6 @@
 // luogu/P1058.cpp
 // https://www.luogu.com.cn/problem/P1058
-// Created by learncoding60 on 2020/8/7.
+// Created by learntocode1024 on 2020/8/7.
 
 #include <vector>
 #include <cstring>

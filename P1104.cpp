@@ -1,6 +1,6 @@
 // luogu/P1104.cpp
 // https://www.luogu.com.cn/problem/P1104
-// Created by learncoding60 on 2020/8/6.
+// Created by learntocode1024 on 2020/8/6.
 
 #include <vector>
 #include <string>
