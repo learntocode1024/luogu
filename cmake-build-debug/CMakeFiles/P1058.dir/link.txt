@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/P1058.dir/P1058.cpp.o  -o P1058 
