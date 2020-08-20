@@ -1,6 +1,7 @@
 // luogu/P2239.cpp
 // https://www.luogu.com.cn/problem/P2239
 // Created by learntocode1024 on 2020/8/6.
+// AC
 
 #include <iostream>
 

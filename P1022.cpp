@@ -1,6 +1,7 @@
 // luogu/P1022.cpp
 // https://www.luogu.com.cn/problem/P1022
 // Created by learntocode1024 on 2020/8/6.
+// AC
 
 #include <iostream>
 #include <string>
