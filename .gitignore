@@ -1,2 +1,5 @@
 # ignore all local compiled binaries for debug
 bin/
+debug
+*.in
+*.out
