@@ -11,7 +11,8 @@ int main() {
     std::getline(std::cin, input);
     input.append(" ");
     char ch;
-    int linear = 0, constant = 0, buf = 0, nega = 0, left = 1, read = 0;
+    int linear = 0, constant = 0;
+    int buf = 0, nega = 0, left = 1, read = 0;
     for (char i: input) {
         if (isdigit(i)) {
             if (read) buf *= 10;
