@@ -14,10 +14,10 @@ struct node {
         return h > a.h;
     }
     node prec() {
-        return city[last];
+        if (last >= 0) return city[last];
     }
     node succ() {
-        return city[next];
+        if (next >= 0) return city[next];
     }
 };
 
@@ -35,6 +35,7 @@ int main() {
     };
     std::sort(city, city + n - 1);
     for (int i = 0; i != n; ++i) f[city[i].pos] = i;
-    for (int i = 0; i != n; ++i) 
+    for (int i = 0; i != n; ++i) city[i].last = i - 1, city[i].next = i + 1;
+
     return 0;
 }
