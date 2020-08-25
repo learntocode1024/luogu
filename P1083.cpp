@@ -16,7 +16,6 @@ int t[MX];
 
 int main() {
     scanf("%d %d",&n, &m);
-    std::cin >> n >> m;
     for (int i = 0, curr = 0, last = 0; i != n; ++i) {
         scanf("%d", &curr);
         diff[i] = curr - last;
