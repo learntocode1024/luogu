@@ -4,8 +4,10 @@
 // 
 #include <cstdio>
 #include <cstring>
-const int MXM = 2e4 + 5;
-const int MXN = 1e5 + 5;
+const int MXN = 2e4 + 5;
+const int MXM = 2e5 + 5;
+const int nil = MXM - 1;
+typedef unsigned char ch;
 
 struct edge {
     int key = -1;
@@ -17,23 +19,27 @@ struct edge {
 };
 
 int node[MXN];
-char color[MXN];
+ch visit[MXN];
 edge adj[MXM << 1];
 int N, M, mid;
 
-int dfs(int curr) {
-    
+int dfs(int curr, ch color, bool &b) {
+    visit[curr] = color;
+    for (edge i = adj[curr]; i.nxt != -1)
 }
 
-int judge(int key) {
-
+bool judge(int key) {
+    bool b = true;
+    for (int i = 0; i != N && b; ++i) {
+        if (visit[i]) dfs(i, 1, b);
+    }
 }
 
 int main() {
     // input
     int mx_w = 0;
     scanf("%d %d", &N, &M);
-    memset(adj, -1, sizeof(adj));
+    memset(node, -1, sizeof(node));
     for (int i = 0, fi, to, w; i != (M << 1);) {
         scanf("%d %d %d", &fi, &to, &w);
         if (w > mx_w) mx_w = w;
