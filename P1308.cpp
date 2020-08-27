@@ -1,9 +1,9 @@
 // luogu/P1308.cpp
 // https://www.luogu.com.cn/problem/P1308
 // Created by learntocode1024 on 2020/8/3.
+//
 
 #include <iostream>
-
 using namespace std;
 
 int main() {
