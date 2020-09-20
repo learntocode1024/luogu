@@ -4,3 +4,5 @@ debug
 *.in
 *.out
 test
+cmake*
+CMakeLists.txt
