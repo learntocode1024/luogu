@@ -1,4 +1,4 @@
-// luogu/P1169.cpp
+// luogu/P1169_dp.cpp
 // https://www.luogu.com.cn/problem/P1169
 // Created by learntocode1024 on Sep 18 2020.
 // 
