@@ -8,10 +8,8 @@
 #include <algorithm>
 using std::max;
 using std::min;
-//#define MX_N 255
-#define MX_N 5
-//#define MX_W 1000
-#define MX_W 20
+#define MX_N 255
+#define MX_W 1000
 #define MX_RATE 250
 const float EPS = 1e-6;
 
