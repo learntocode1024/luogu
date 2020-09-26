@@ -28,9 +28,9 @@ void dfs(int curr) {
     if (!vis[child]) {
       dfs(child);
       size[curr] += size[child];
-      // Below Is WRONG!!! states greater than size[curr] may NOT be updated!!!
-      // for (int k_num = min(n - m, size[curr]); k_num > 0; --k_num) {
-      for (int k_num = min(n - m, size[curr]); k_num > 0; --k_num)
+       for (int k_num = min(n - m, size[curr]); k_num > 0; --k_num) {
+         // Below Is WRONG! states greater than size[curr] may NOT be updated!
+//      for (int select = 1; select < min(size[curr], k_num); ++select) {
         for (int select = 1; select < k_num; ++select) {
           dp[curr][k_num] = max(dp[curr][k_num],
                                 dp[curr][k_num - select] + dp[child][select]);
