@@ -5,7 +5,7 @@
 #include <vector>
 #include <cstring>
 #include <cstdio>
-#define MX 155
+#define MX 15
 const int inf = 0x7FFF;
 using std::memset;
 using std::vector;
@@ -23,8 +23,9 @@ int min(const int &a, const int &b) {
 void init() {
   memset(vis, 0, sizeof(vis));
   memset(dp, 0x7F, sizeof(dp));
-  for (int i = 1; 1 <= n; ++i)
-    dp[i][0] = 0;
+  dp[1][1] = adj[1].size();
+  for (int i = 2; i <= n; ++i)
+    dp[i][1] = adj[i].size() - 1;
 }
 
 void dfs(int curr) {
@@ -35,10 +36,13 @@ void dfs(int curr) {
     dfs(child);
     size[curr] += size[child];
     // dp
-    for (int cut = 1; cut < size[curr]; ++cut) {
-      
+    for (int num = size[curr]; num > 0; --num) {
+      for (int kI = 1; kI < num; ++kI) {
+        dp[curr][num] = min(dp[curr][num], dp[curr][num - kI] + dp[child][kI] - 1);
+      }
     }
   }
+  dp[curr][size[curr]] = 0;
 }
 
 int main() {
@@ -52,7 +56,7 @@ int main() {
   dfs(1);
   int ans = inf;
   for (int kJ = 1; kJ <= n; ++kJ) {
-    ans = min(ans, dp[kJ][size[kJ] - p]);
+    ans = min(ans, dp[kJ][p]);
   }
   printf("%d", ans);
   return 0;
