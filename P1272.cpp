@@ -2,7 +2,7 @@
 // https://www.luogu.com.cn/problem/P1272
 // Created by learntocode1024 on 9/26/20.
 // AC on Sep 28 2020
-// https://git.virjar.com/root/jetbrains-agent/
+
 #include <vector>
 #include <cstring>
 #include <cstdio>
