@@ -1,4 +1,4 @@
-// luogu/P2704.cpp
+// luogu/P1272.cpp
 // https://www.luogu.com.cn/problem/P1272
 // Created by learntocode1024 on 9/26/20.
 // AC on Sep 28 2020
@@ -39,7 +39,8 @@ void dfs(int curr) {
     // dp
     for (int num = size[curr]; num > 0; --num) {
       for (int kI = num - 1; kI > 0; --kI) {
-        dp[curr][num] = min(dp[curr][num], dp[curr][num - kI] + dp[child][kI] - 1);
+        dp[curr][num] = min(dp[curr][num],
+                            dp[curr][num - kI] + dp[child][kI] - 1);
       }
     }
   }
