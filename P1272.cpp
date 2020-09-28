@@ -1,7 +1,7 @@
 // luogu/P2704.cpp
 // https://www.luogu.com.cn/problem/P1272
 // Created by learntocode1024 on 9/26/20.
-//
+// AC on Sep 28 2020
 // https://git.virjar.com/root/jetbrains-agent/
 #include <vector>
 #include <cstring>
@@ -38,7 +38,7 @@ void dfs(int curr) {
     size[curr] += size[child];
     // dp
     for (int num = size[curr]; num > 0; --num) {
-      for (int kI = 1; kI < num; ++kI) {
+      for (int kI = num - 1; kI > 0; --kI) {
         dp[curr][num] = min(dp[curr][num], dp[curr][num - kI] + dp[child][kI] - 1);
       }
     }
@@ -55,9 +55,9 @@ int main() {
   }
   init();
   dfs(1);
-  int ans = inf;
-  for (int kJ = 1; kJ <= n; ++kJ) {
-    ans = min(ans, dp[kJ][p]);
+  int ans = dp[1][p];
+  for (int kJ = 2; kJ <= n; ++kJ) {
+    ans = min(ans, dp[kJ][p] + 1);
   }
   printf("%d", ans);
   return 0;
