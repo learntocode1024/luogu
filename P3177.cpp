@@ -7,9 +7,11 @@
 #include <algorithm>
 #include <cstring>
 #include <vector>
-#define MX 2005
+#define MX 22
+const int inf = 0x3fffffff;
 using std::vector;
 using std::max;
+using std::min;
 using std::memset;
 
 struct edge {
@@ -32,14 +34,21 @@ void dfs(int curr) {
     size[curr] += size[child.to];
     // dp
     // black
-    for (int bk = 2; bk <= size[curr]; ++bk) {
-      dp[curr][bk][1] += max(dp[child.to][bk - 1][0],
-                             dp[child.to][bk - 1][1] + child.val);
+    for (int bk = size[curr]; bk > 0; --bk) {
+      for (int kI = 0; kI < min(bk, size[child.to]); ++kI)
+        dp[curr][bk][1] = max(dp[curr][bk][1],
+                              dp[curr][bk - kI][1] + \
+                              max(dp[child.to][kI][1] + child.val,
+                                  dp[child.to][kI][0]));
     }
     // white
-    for (int bk = 0; bk <= size[curr]; ++bk) {
-      dp[curr][bk][0] += max(dp[child.to][bk][0] + child.val,
-                             dp[child.to][bk][1]);
+    for (int bk = size[curr]; bk >= 0; --bk) {
+      for (int kI = 0; kI <= min(bk, size[child.to]); ++kI)
+        dp[curr][bk][0] = max(dp[curr][bk][0],
+                              dp[curr][bk - kI][0] +
+                              max(dp[child.to][kI][1],
+                                  dp[child.to][kI][0] + child.val));
+
     }
   }
 }
@@ -50,6 +59,9 @@ int main() {
     scanf("%d%d%d", &a, &b, &c);
     adj[a].push_back({b, c});
     adj[b].push_back({a, c});
+  }
+  for (auto & kI : dp) {
+    kI[0][1] = -inf;
   }
   dfs(1);
   printf("%d", max(dp[1][k][0], dp[1][k][1]));
