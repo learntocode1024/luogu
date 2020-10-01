@@ -1,4 +1,4 @@
-# luogu
+# luogu(Archived)
 #### Project merged into [program-learning](https://github.com/learntocode1024/program-learning) on October 1st, 2020.
 AC one problem every day!
 ### Accepted problems
@@ -17,4 +17,3 @@ P1169_dp.cpp
     * Always keep the loops of fundamental variables in outer layer.
 * proper initialization values
 #### DP on tree
-
